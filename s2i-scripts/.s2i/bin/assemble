@@ -12,7 +12,7 @@ config_s2i
 
 echo "---> Installing application source"
 # copy index.html to root
-cp -Rf ./tmp/src/*.html ./
+cp -Rf /tmp/src/*.html ./
 
 echo "---> Creating info page"
 
