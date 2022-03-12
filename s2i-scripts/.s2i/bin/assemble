@@ -16,6 +16,7 @@ cp -Rf /tmp/src/*.html ./
 
 echo "---> Creating info page"
 
+touch ./info.html
 # configurate DATE
 DATE=date "+%b %d, %Y @ %H:%M %p"
 # "Page built on $DATE" to ./info.html 
