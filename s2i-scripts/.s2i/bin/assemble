@@ -17,9 +17,9 @@ cp -Rf /tmp/src/*.html ./
 echo "---> Creating info page"
 
 # configurate DATE
-
+DATE=$(date "+%F")
 # "Page built on $DATE" to ./info.html 
-echo "Page built on " + $(date "+%F")>> ./info.html
+echo "Page built on $DATE">> ./info.html
 # "Proudly served by Apache HTTP Server version $HTTPD_VERSION" to ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
 
